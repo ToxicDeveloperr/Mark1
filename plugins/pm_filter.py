@@ -2183,9 +2183,9 @@ async def advantage_spell_chok(client, msg):
         gs_parsed = []
         if not g_s:
             reqst_gle = query.replace(" ", "+")
-            button = [[
+            buttons = [[
                        InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
-                       
+                       InlineKeyboardButton("Send Your Request", url=f"https://www.google.com/search?q={reqst_gle}")
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
