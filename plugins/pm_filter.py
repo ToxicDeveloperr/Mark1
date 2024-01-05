@@ -2285,9 +2285,9 @@ async def advantage_spell_chok(client, msg):
         movielist = []
         if not movies:
             reqst_gle = mv_rqst.replace(" ", "+")
-            button = [[
-                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
-                    
+            buttons = [[
+                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
+                       InlineKeyboardButton('Send Your Request',url="https://t.me/Assistant_24_7_bot")
             
             ]]
             
