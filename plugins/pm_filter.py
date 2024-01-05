@@ -2185,7 +2185,7 @@ async def advantage_spell_chok(client, msg):
             reqst_gle = query.replace(" ", "+")
             button = [[
                        InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
-                       InlineKeyboardButton("Send Your Request", url=f"@Assistant_24_7_bot")
+                       
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
@@ -2224,7 +2224,7 @@ async def advantage_spell_chok(client, msg):
             reqst_gle = query.replace(" ", "+")
             button = [[
                        InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
-                       InlineKeyboardButton("Send Your Request", url=f"@Assistant_24_7_bot")
+                       
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
@@ -2268,7 +2268,7 @@ async def advantage_spell_chok(client, msg):
             reqst_gle = mv_rqst.replace(" ", "+")
             button = [[
                        InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
-                       InlineKeyboardButton("Send Your Request", url=f"@Assistant_24_7_bot")
+                       
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
@@ -2285,7 +2285,7 @@ async def advantage_spell_chok(client, msg):
             reqst_gle = mv_rqst.replace(" ", "+")
             button = [[
                        InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
-                       InlineKeyboardButton("Send Your Request", url=f"@Assistant_24_7_bot")
+                       
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
