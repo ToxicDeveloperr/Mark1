@@ -2183,11 +2183,9 @@ async def advantage_spell_chok(client, msg):
         gs_parsed = []
         if not g_s:
             reqst_gle = query.replace(" ", "+")
-            button = [[
-                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
-                       
-            ]]
-            button = [[
+            buttons = [[
+                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
+                      
             InlineKeyboardButton("Send Your Request", url=f"https://t.me/Assistant_24_7_bot")
             ]]
             if NO_RESULTS_MSG:
@@ -2225,11 +2223,9 @@ async def advantage_spell_chok(client, msg):
         movielist = list(dict.fromkeys(movielist))  # removing duplicates
         if not movielist:
             reqst_gle = query.replace(" ", "+")
-            button = [[
-                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
+            buttons = [[
+                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
                        
-            ]]
-            button = [[
             InlineKeyboardButton("Send Your Request", url=f"https://t.me/Assistant_24_7_bot")
             ]]
             
@@ -2273,11 +2269,9 @@ async def advantage_spell_chok(client, msg):
         except Exception as e:
             logger.exception(e)
             reqst_gle = mv_rqst.replace(" ", "+")
-            button = [[
-                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
+            buttons = [[
+                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
                        
-            ]]
-            button = [[
             InlineKeyboardButton("Send Your Request", url=f"https://t.me/Assistant_24_7_bot")
             ]]
             
@@ -2294,11 +2288,9 @@ async def advantage_spell_chok(client, msg):
         movielist = []
         if not movies:
             reqst_gle = mv_rqst.replace(" ", "+")
-            button = [[
-                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
-                       
-            ]]
-            button = [[
+            buttons = [[
+                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
+                    
             InlineKeyboardButton("Send Your Request", url=f"https://t.me/Assistant_24_7_bot")
             ]]
             
