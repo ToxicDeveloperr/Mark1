@@ -2184,7 +2184,9 @@ async def advantage_spell_chok(client, msg):
         if not g_s:
             reqst_gle = query.replace(" ", "+")
             buttons = [[
-                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
+                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
+            ],
+                       [
                        InlineKeyboardButton('Send Your Request',url="https://t.me/Assistant_24_7_bot")
             ]]
             if NO_RESULTS_MSG:
@@ -2223,7 +2225,9 @@ async def advantage_spell_chok(client, msg):
         if not movielist:
             reqst_gle = query.replace(" ", "+")
             buttons = [[
-                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
+                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
+            ],
+                       [
                        InlineKeyboardButton('Send Your Request',url="https://t.me/Assistant_24_7_bot")
             ]]
             
@@ -2268,7 +2272,9 @@ async def advantage_spell_chok(client, msg):
             logger.exception(e)
             reqst_gle = mv_rqst.replace(" ", "+")
             buttons = [[
-                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
+                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
+            ],
+                       [
                        InlineKeyboardButton('Send Your Request',url="https://t.me/Assistant_24_7_bot")
             ]]
             
@@ -2286,7 +2292,9 @@ async def advantage_spell_chok(client, msg):
         if not movies:
             reqst_gle = mv_rqst.replace(" ", "+")
             buttons = [[
-                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
+                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
+            ],
+                       [
                        InlineKeyboardButton('Send Your Request',url="https://t.me/Assistant_24_7_bot")
             
             ]]
