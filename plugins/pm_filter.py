@@ -2184,7 +2184,7 @@ async def advantage_spell_chok(client, msg):
         if not g_s:
             reqst_gle = query.replace(" ", "+")
             button = [[
-                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
+                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
                   
             ]]
             if NO_RESULTS_MSG:
@@ -2222,8 +2222,8 @@ async def advantage_spell_chok(client, msg):
         movielist = list(dict.fromkeys(movielist))  # removing duplicates
         if not movielist:
             reqst_gle = query.replace(" ", "+")
-            butyon = [[
-                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
+            button = [[
+                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
                   
             ]]
             
