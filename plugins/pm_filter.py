@@ -2188,7 +2188,7 @@ async def advantage_spell_chok(client, msg):
                        
             ]]
             button = [[
-            InlineKeyboardButton("Send Your Request", url=f"https://www.google.com/search?q={reqst_gle}")
+            InlineKeyboardButton("Send Your Request", url=f"https://t.me/Assistant_24_7_bot")
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
@@ -2225,10 +2225,14 @@ async def advantage_spell_chok(client, msg):
         movielist = list(dict.fromkeys(movielist))  # removing duplicates
         if not movielist:
             reqst_gle = query.replace(" ", "+")
-            buttons = [[
-                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
-                       InlineKeyboardButton("Send Your Request", url=f"https://www.google.com/search?q={reqst_gle}")
+            button = [[
+                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
+                       
             ]]
+            button = [[
+            InlineKeyboardButton("Send Your Request", url=f"https://t.me/Assistant_24_7_bot")
+            ]]
+            
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
             k = await msg.reply_photo(
@@ -2269,10 +2273,14 @@ async def advantage_spell_chok(client, msg):
         except Exception as e:
             logger.exception(e)
             reqst_gle = mv_rqst.replace(" ", "+")
-            buttons = [[
-                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
-                       InlineKeyboardButton("Send Your Request", url=f"https://www.google.com/search?q={reqst_gle}")
+            button = [[
+                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
+                       
             ]]
+            button = [[
+            InlineKeyboardButton("Send Your Request", url=f"https://t.me/Assistant_24_7_bot")
+            ]]
+            
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
             k = await msg.reply_photo(
@@ -2286,10 +2294,14 @@ async def advantage_spell_chok(client, msg):
         movielist = []
         if not movies:
             reqst_gle = mv_rqst.replace(" ", "+")
-            buttons = [[
-                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}"),
-                       InlineKeyboardButton("Send Your Request", url=f"https://www.google.com/search?q={reqst_gle}")
+            button = [[
+                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
+                       
             ]]
+            button = [[
+            InlineKeyboardButton("Send Your Request", url=f"https://t.me/Assistant_24_7_bot")
+            ]]
+            
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
             k = await msg.reply_photo(
