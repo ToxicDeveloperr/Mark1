@@ -87,7 +87,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
 my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=https://t.me/TejDeveloper>☢VJ☢</a></b>
+ <b>✯ Maintained by : <a href=https://t.me/TejDeveloper>☢TejDeveloper☢</a></b>
   
  <b>✯ Join here : <a href=https://t.me/movies_market_backup>☢Join my updateds☢</a></b> 
   
