@@ -472,7 +472,7 @@ TAMIL_INFO = """
 மேலும் உங்கள் குழுவில் பயிற்சி வீடியோ தொகுப்பு ஆகிடும்..."""
 
 
-    ENGLISH_INFO = """
+ENGLISH_INFO = """
 Hey <a href='tg://settings'>My Friend</a> 
 
 
@@ -499,7 +499,7 @@ Hey <a href='tg://settings'>My Friend</a>
 
 Also your tutorial will be Added Your Group..."""
 
-    TELUGU_INFO = """
+TELUGU_INFO = """
 హే <a href='tg://settings'>My Friend</a> 
 
 
@@ -526,7 +526,7 @@ Also your tutorial will be Added Your Group..."""
 
 అలాగే మీ బృందం వీడియో సేకరణకు శిక్షణ ఇస్తుంది..."""
 
-    HINDI_INFO = """
+HINDI_INFO = """
 अरे <a href='tg://settings'>My Friend</a> 
 
 
@@ -553,7 +553,7 @@ Also your tutorial will be Added Your Group..."""
 
 साथ ही आपकी टीम वीडियो संग्रह का प्रशिक्षण भी देगी..."""
 
-    MALAYALAM_INFO = """
+MALAYALAM_INFO = """
 ഹേയ് <a href='tg://settings'>My Friend</a> 
 
 
@@ -580,7 +580,7 @@ Also your tutorial will be Added Your Group..."""
 
 നിങ്ങളുടെ ടീം വീഡിയോ ശേഖരണവും പരിശീലിപ്പിക്കും..."""
 
-    URTU_INFO = """
+URTU_INFO = """
  <a href='tg://settings'>My Friend</a> 
 
 
@@ -607,7 +607,7 @@ Also your tutorial will be Added Your Group..."""
 
 نیز آپ کی ٹیم ویڈیو جمع کرنے کی تربیت دے گی..."""
 
-    GUJARATI_INFO = """
+GUJARATI_INFO = """
 અરે <a href='tg://settings'>My Friend</a> 
 
 
@@ -634,7 +634,7 @@ Also your tutorial will be Added Your Group..."""
 
 તેમજ તમારી ટીમ વિડિયો કલેક્શનની તાલીમ આપશે..."""
 
-    KANNADA_INFO = """
+KANNADA_INFO = """
 ಹೇ {message.from_user.mention}
 
  ಈಗ ನೀವು ಟೆಲಿಗ್ರಾಮ್‌ನಲ್ಲಿಯೂ ಹಣ ಗಳಿಸಬಹುದು.
@@ -660,7 +660,7 @@ Also your tutorial will be Added Your Group..."""
 
 ನಿಮ್ಮ ತಂಡವು ವೀಡಿಯೋ ಸಂಗ್ರಹಣೆಗೆ ತರಬೇತಿ ನೀಡಲಿದೆ..."""
 
-    BANGLADESH_INFO = """
+BANGLADESH_INFO = """
 আরে <a href='tg://settings'>My Friend</a> 
 
  এখন আপনি টেলিগ্রামেও অর্থ উপার্জন করতে পারেন।
