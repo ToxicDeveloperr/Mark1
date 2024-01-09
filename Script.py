@@ -687,7 +687,7 @@ BANGLADESH_INFO = """
 এছাড়াও আপনার দল ভিডিও সংগ্রহের প্রশিক্ষণ দেবে..."""
  
 
-    DEVELOPER_TXT = """
+DEVELOPER_TXT = """
 special Thanks To ❤️ Developers -
 
 -Dev 1 [Owner of this bot ]<a href='https://t.me/TejDeveloper'>ⁱᵗᶻ ᵐᵉ ᵗᵍ 🇮🇳</a>
