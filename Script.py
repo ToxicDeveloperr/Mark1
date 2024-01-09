@@ -443,9 +443,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
 BOT WORKING PROPERLY"""
     
- 
-TAMIL_INFO = """
-ஏய் <a href='tg://settings'>My Friend</a> 
+    TAMIL_INFO = """ஏய் <a href='tg://settings'>My Friend</a> 
 
 
  இந்த போட்டைப் பயன்படுத்தி பணம் சம்பாதிக்க விரும்பினால், உரிமையாளரைத் தொடர்புகொள்ளவும்...
