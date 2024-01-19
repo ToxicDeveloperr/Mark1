@@ -1,2 +1,2 @@
 
-# I have my dirty mind one & only @TejDeveloper 😎😍
+# I have my dirty mind @TejDeveloper & @LazyDeveloperr 😎😍
