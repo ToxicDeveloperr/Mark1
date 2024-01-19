@@ -1,4 +1,4 @@
-#Thanks @Lazydeveloperr helping this journey 
+#Thanks @Tejdeveloper helping this journey 
 
 import jinja2
 from info import *
