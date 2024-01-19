@@ -1,4 +1,4 @@
-#Thanks @Lazydeveloperr helping this journey 
+#Thanks @TejDeveloper helping this journey 
 import math
 import asyncio
 import logging
