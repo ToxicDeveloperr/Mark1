@@ -1,8 +1,3 @@
-# Don't Remove Credit @TejDeveloper
-# Subscribe YouTube Channel For Amazing Bot @LazyDeveloper
-# Ask Doubt on telegram @TejDeveloper
-
-#Thanks @LazyDeveloper helping this journey 
 import asyncio
 import logging
 from info import *
