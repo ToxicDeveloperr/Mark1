@@ -18,7 +18,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '27710337'))
 API_HASH = environ.get('API_HASH', '354e1dd8e1e3041ee2145196da8d6aac')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6727168738:AAGeFmdanHxSJGL8T4wniJcvhXq7KVxcCnU")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6443386943:AAHw7bgT5jPIu00okBL0R3RfKOO7pbJ30Dg")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -64,7 +64,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movies_market_backup')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/the_owner_support')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001787750204'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002121723251'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'the_owner_support')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
